@@ -1,7 +1,7 @@
 
 import React from 'react';
 import LinkButton from './components/LinkButton';
-import { InstagramIcon, SpotifyIcon, WhatsAppIcon } from './components/Icons';
+import { InstagramIcon, SpotifyIcon, WhatsAppIcon, YouTubeIcon } from './components/Icons';
 import AnimatedBackground from './components/AnimatedBackground';
 
 const App: React.FC = () => {
@@ -15,6 +15,11 @@ const App: React.FC = () => {
       href: '#', // Fictitious link
       text: 'Meus sons',
       icon: <SpotifyIcon />,
+    },
+    {
+      href: '#', // Placeholder YouTube link
+      text: 'YouTube',
+      icon: <YouTubeIcon />,
     },
     {
       href: 'https://wa.me/5500000000000', // Editable WhatsApp link
